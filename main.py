@@ -27,7 +27,7 @@ def getTime():
         players.append(i + 1)
     for i in range(len(players)):
         playersTime.append(input("How much time for player " + str(i + 1) + "? "))
-    print(playersTime)
+    print("Press space to end turn. ")
 
     timePass = time.time() + 1
 
