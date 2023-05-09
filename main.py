@@ -23,10 +23,10 @@ def getTime():
     players = []
     playersTime = []
 
-    for i in range(0, int(input("How many players in the game?"))):
+    for i in range(0, int(input("How many players in the game?" ))):
         players.append(i + 1)
     for i in range(len(players)):
-        playersTime.append(input("How much time for player " + str(i + 1) + "?"))
+        playersTime.append(input("How much time for player " + str(i + 1) + "? "))
     print(playersTime)
 
     timePass = time.time() + 1
